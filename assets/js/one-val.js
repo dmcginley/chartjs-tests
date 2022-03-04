@@ -21,17 +21,17 @@ async function drawChart() {
 
       {
         label: "price 1",
-        backgroundColor: "#76b7b2",
+        // backgroundColor: "#76b7b2",
         borderColor: "#76b7b2",
         data: myData.price1,
         pointRadius: 0,
         borderDash: [8, 6],
 
-        fill: {
-          // target: "origin",
-          // above: "rgba(118, 183, 177, 0.5)", // Area will be red above the origin
-          // below: "#76b7b2", // And blue below the origin
-        },
+        // fill: {
+        // target: "origin",
+        // above: "rgba(118, 183, 177, 0.5)", // Area will be red above the origin
+        // below: "#76b7b2", // And blue below the origin
+        // },
       },
     ],
   };
