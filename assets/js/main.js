@@ -2,7 +2,7 @@ const ctx = document.getElementById("myChart").getContext("2d");
 const myChart = new Chart(ctx, {
   type: "line",
   data: {
-    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+    labels: ["1", "2", "3", "4", "5", "6"],
     datasets: [
       {
         label: "# of my data",

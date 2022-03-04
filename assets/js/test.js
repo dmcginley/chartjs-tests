@@ -74,7 +74,7 @@ async function getData() {
   const myData = await response.text();
   console.log(myData);
 
-  const formatData = myData.split("\n").slice(2);
+  const formatData = myData.split("\n").slice(1);
   // console.log(formatData);
 
   formatData.forEach((row) => {
